@@ -6,6 +6,8 @@ public class Book implements Serializable{
 	private String booktitle;
 	private float bookprice;
 	private String bookgrade;
+	
+	//generate getters and setters
 	public int getBookid() {
 		return bookid;
 	}
